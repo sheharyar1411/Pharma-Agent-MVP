@@ -1,0 +1,65 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Data & Databases
+*.csv
+*.json
+# Keeping specific JSON files if needed in version control, but excluding data CSVs
+!requirements.txt
+
+# ChromaDB & Vector Storage
+chroma_storage/
+.chroma/
+*.db
+
+# Ollama Models (if stored locally)
+ollama_models/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+*.pkl
+*.pickle
+*.joblib
+embeddings/
